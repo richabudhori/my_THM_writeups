@@ -20,9 +20,10 @@ OSI(Open Systems Interconnection) is a standerised framework that tells how comp
 - Uses protocols such as **HTTP(for web browsing), FTP(for sending files), SMTP(for emails)**
 - Serves as a bridge between the user and the application, where user could interact with web browsers, applications and manage various tasks.
 - Also responsible for data encoding, representation and session management.
-
 **2. Layer 6 - The Presentation Layer**
-- 
+- Responsible for translating, formatting, and encrypting data for the application layer.
+- *Translates* data into a format that is easy to understand, *converts* data into one format to another, *encrypts* data for ensuring data integrity throughout the transfer process.
+- Additionally handles data serialization and deserialization. 
 **1. Layer 7 - The Application Layer**
 **1. Layer 7 - The Application Layer**
 **1. Layer 7 - The Application Layer**
