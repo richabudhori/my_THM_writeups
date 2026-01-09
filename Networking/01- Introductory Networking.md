@@ -1,22 +1,22 @@
-# TryHackMe – Networking Basics (Learning Write-up)
+# Introductory Networking - An introduction to networking theory and basic networking tools
 
 ## 1. Purpose of this write-up
-I completed the Networking Basics room on TryHackMe to strengthen my cybersecurity fundamentals. This write-up documents my understanding of core networking concepts in my own words.
+I completed the Introductory Networking room on TryHackMe to strengthen my cybersecurity fundamentals. This write-up documents my understanding of basic networking concepts in my own words.
 
 ## 2. What this room was about
-This room introduced the basic concepts of computer networking that are essential for understanding how systems communicate over a network.
+This room covered the following topics : 
+- The OSI Model
+- The TCP/IP Model
+- How these models look in practice
+- An introduction to basic networking tools
 
-Topics covered include:
-- Networks and communication
-- IP and MAC addresses
-- DNS and domain resolution
-- TCP vs UDP
-- Basic networking commands
+## 3. Key concepts explained: 
 
-## 3. Key concepts explained in simple words
+### 3.1 The OSI Model
+OSI(Open Systems Interconnection) is a standerised framework that tells how computer networking works in real time. It comprises of 7 layers, each serving their own purpose in networking and communication.
 
-### 3.1 What is a network
-A network is a group of devices connected together so they can communicate and share data with each other.
+#### 3.1.1 Layer 7 - The Application Layer
+
 
 ### 3.2 IP address
 An IP address is a unique identifier assigned to a device on a network. It helps data know where to go and where it came from.
