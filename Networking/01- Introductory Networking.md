@@ -1,4 +1,4 @@
-# Introductory Networking - An introduction to networking theory and basic networking tools
+# 🌐Introductory Networking - An introduction to networking theory and basic networking tools
 
 ## 1. Purpose of this write-up
 I completed the Introductory Networking room on TryHackMe to strengthen my cybersecurity fundamentals. This write-up documents my understanding of basic networking concepts in my own words.
@@ -15,8 +15,19 @@ This room covered the following topics :
 ### 3.1 The OSI Model
 OSI(Open Systems Interconnection) is a standerised framework that tells how computer networking works in real time. It comprises of 7 layers, each serving their own purpose in networking and communication.
 
-#### 3.1.1 Layer 7 - The Application Layer
+**1. Layer 7 - The Application Layer**
+- Interacts directly with end-user applications.
+- Uses protocols such as **HTTP(for web browsing), FTP(for sending files), SMTP(for emails)**
+- Serves as a bridge between the user and the application, where user could interact with web browsers, applications and manage various tasks.
+- Also responsible for data encoding, representation and session management.
 
+**2. Layer 6 - The Presentation Layer**
+- 
+**1. Layer 7 - The Application Layer**
+**1. Layer 7 - The Application Layer**
+**1. Layer 7 - The Application Layer**
+**1. Layer 7 - The Application Layer**
+**1. Layer 7 - The Application Layer**
 
 ### 3.2 IP address
 An IP address is a unique identifier assigned to a device on a network. It helps data know where to go and where it came from.
