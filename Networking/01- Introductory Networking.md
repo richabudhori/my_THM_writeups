@@ -13,7 +13,7 @@ This room covered the following topics :
 ## 3. Key concepts explained: 
 
 ### 3.1 The OSI Model
-OSI(Open Systems Interconnection) is a standerised framework that tells how computer networking works in real time. It comprises of 7 layers, each serving their own purpose in networking and communication.
+> OSI(Open Systems Interconnection) is a standerised framework that tells how computer networking works in real time. It comprises of 7 layers, each serving their own purpose in networking and communication.
 
 **Layer 7 - The Application Layer**
 - Interacts directly with end-user applications.
@@ -51,7 +51,7 @@ OSI(Open Systems Interconnection) is a standerised framework that tells how comp
 - If layer 1 fails, no data transmission would be possible. 
 ---
 ### 3.2 ENCAPSULATION 
-It is the process of adding extra bit of information to the data as it moves in the OSI model.
+> It is the process of adding extra bit of information to the data as it moves in the OSI model.
 
 **🔁 How Encapsulation Works**
 - *Layer 7 -* Original data is created here. An aplication header is added.
@@ -90,8 +90,13 @@ It is the process of adding extra bit of information to the data as it moves in 
 
 ---
 
-### 3.3 MAC address
-A MAC address is a hardware-level identifier assigned to a network interface. It is used inside local networks for communication.
+### 3.3 TCP/IP MODEL
+
+
+
+
+
+
 
 ### 3.4 DNS (Domain Name System)
 DNS converts human-friendly website names (like google.com) into IP addresses that computers understand.
