@@ -74,7 +74,7 @@ It is the process of adding extra bit of information to the data as it moves in 
 
 
 **🔁 How De-encapsulation Works**
-The receiver does the reverse of what was done in encapsulation. The data is sent from layer 1 -> layer 7. In every step, header and trailer is removed from each layer.
+> The receiver does the reverse of what was done in encapsulation. The data is sent from layer 1 -> layer 7. In every step, header and trailer is removed from each layer.
 
 **✅ Why Encapsulation is Important?**
 
@@ -86,7 +86,7 @@ The receiver does the reverse of what was done in encapsulation. The data is sen
 
 - Follows a standard method for data transfer
 
-> 📌 **Note:** The data link layer is the only layer tha adds a piece on at the end of the transmission, called as trailer, which is used to verify that the data has not been corrupted on transmission. This also has the added bonus of increased security, as the data can't be intercepted and tampered with without breaking the trailer.
+> 📌 **Note:** The data link layer is the only layer that adds a piece on at the end of the transmission, called as trailer, which is used to verify that the data has not been corrupted on transmission. This also has the added bonus of increased security, as the data can't be intercepted and tampered with without breaking the trailer.
 
 ---
 
