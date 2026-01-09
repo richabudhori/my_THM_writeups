@@ -49,9 +49,46 @@ OSI(Open Systems Interconnection) is a standerised framework that tells how comp
 - Lowest layer of the OSI model that deals with the actual hardware(cables, switches, ports).
 - Works with Binary data. Converts raw data into electric signals that are transmitted through wired or wireless mediums throughout the network.
 - If layer 1 fails, no data transmission would be possible. 
+---
+### 3.2 ENCAPSULATION 
+It is the process of adding extra bit of information to the data as it moves in the OSI model.
 
-### 3.2 IP address
-An IP address is a unique identifier assigned to a device on a network. It helps data know where to go and where it came from.
+**🔁 How Encapsulation Works**
+- *Layer 7 -* Original data is created here. An aplication header is added.
+- *Layer 6-* Data is compressed, encrypted or formatted. A presentation header is added.
+- *Layer 5-* Manages session between sender and receiver. A session header is added.
+- *Layer 4-* Data is broken into smaller parts and a Transport header is added based on the protocol used (TCP/UDP)
+- *Layer 3-* Data is referred to as packet. Adds source and destination IP address to the data.
+- *Layer 2-* Data is referred to as frames. A header and a trailer is added to data. 
+- *Layer 1-* Frame is converted into bits (0s and 1s) and then passed in the form of electric signals.
+
+| OSI Layer | Layer Name        | Data Unit Name            |
+|----------|-------------------|---------------------------|
+| Layer 7  | Application       | Data                      |
+| Layer 6  | Presentation      | Data                      |
+| Layer 5  | Session           | Data                      |
+| Layer 4  | Transport         | Segment (TCP) / Datagram (UDP) |
+| Layer 3  | Network           | Packet                    |
+| Layer 2  | Data Link         | Frame                     |
+| Layer 1  | Physical          | Bits                      |
+
+
+**🔁 How De-encapsulation Works**
+The receiver does the reverse of what was done in encapsulation. The data is sent from layer 1 -> layer 7. In every step, header and trailer is removed from each layer.
+
+**✅ Why Encapsulation is Important?**
+
+- Ensures correct delivery
+
+- Provides error checking
+
+- Allows different devices & OS to communicate
+
+- Follows a standard method for data transfer
+
+> 📌 **Note:** The data link layer is the only layer tha adds a piece on at the end of the transmission, called as trailer, which is used to verify that the data has not been corrupted on transmission. This also has the added bonus of increased security, as the data can't be intercepted and tampered with without breaking the trailer.
+
+---
 
 ### 3.3 MAC address
 A MAC address is a hardware-level identifier assigned to a network interface. It is used inside local networks for communication.
