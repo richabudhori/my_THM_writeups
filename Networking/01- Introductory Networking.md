@@ -15,20 +15,40 @@ This room covered the following topics :
 ### 3.1 The OSI Model
 OSI(Open Systems Interconnection) is a standerised framework that tells how computer networking works in real time. It comprises of 7 layers, each serving their own purpose in networking and communication.
 
-**1. Layer 7 - The Application Layer**
+**Layer 7 - The Application Layer**
 - Interacts directly with end-user applications.
 - Uses protocols such as **HTTP(for web browsing), FTP(for sending files), SMTP(for emails)**
 - Serves as a bridge between the user and the application, where user could interact with web browsers, applications and manage various tasks.
 - Also responsible for data encoding, representation and session management.
-**2. Layer 6 - The Presentation Layer**
+  
+**Layer 6 - The Presentation Layer**
 - Responsible for translating, formatting, and encrypting data for the application layer.
 - *Translates* data into a format that is easy to understand, *converts* data into one format to another, *encrypts* data for ensuring data integrity throughout the transfer process.
-- Additionally handles data serialization and deserialization. 
-**1. Layer 7 - The Application Layer**
-**1. Layer 7 - The Application Layer**
-**1. Layer 7 - The Application Layer**
-**1. Layer 7 - The Application Layer**
-**1. Layer 7 - The Application Layer**
+- Additionally handles data serialization and deserialization.
+  
+**Layer 5 - The Session Layer**
+- Establishes, manages and terminates connections or *sessions* between applications on different devices.
+- When data is received from the presentation layer, the session layer checks if a connection can be established with the target device.
+- Manages flow of data within the applications and encourages coordination among the devices for better communication.
+
+**Layer 4 - The Transport Layer**
+- Chooses which protocol to be used for data transmission in the network.
+- Two most common protocols used here - **TCP & UDP**.
+- TCP(Transmission Control Protocol) is mainly used for reliable communication and data transfer within the application, which also guarantees data security and integrity. While UDP(User Datagram Protocol) is connection-less protocol and mainly used for high speed data transfer.
+- With a protocol selected, the transport layer then divides the transmission up into bite-sized pieces (over TCP these are called segments, over UDP they're called datagrams), which makes it easier to transmit the message successfully.
+ 
+**Layer 3 - The Network Layer**
+- Focuses on Logical Addressing. Its most common form currently being IPV4. 
+- When you want to request information from a webpage, it's the network layer that takes the IP address for the page and figures out the best route to take.
+
+**Layer 2 - The Data Link Layer**
+- It handles physical addressing using MAC addresses - *(a unique address given to every Network Interface Card (NIC), written in hexadecimal format)*.
+- Layer 3 sends a packet with an IP address. Layer 2 then converts the packet into frames and adds the MAC address of the destination device to it.
+
+**Layer 1 - The Physical Layer**
+- Lowest layer of the OSI model that deals with the actual hardware(cables, switches, ports).
+- Works with Binary data. Converts raw data into electric signals that are transmitted through wired or wireless mediums throughout the network.
+- If layer 1 fails, no data transmission would be possible. 
 
 ### 3.2 IP address
 An IP address is a unique identifier assigned to a device on a network. It helps data know where to go and where it came from.
