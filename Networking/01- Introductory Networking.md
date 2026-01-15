@@ -90,7 +90,7 @@ This room covered the following topics :
 
 ---
 
-### 3.3 TCP/IP MODEL
+
 
 
 
